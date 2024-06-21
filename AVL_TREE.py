@@ -1,10 +1,10 @@
 #AVL TREE:
 class node:#class for tree node
-    def __init__(self,data): #define ll of node
+    def __init__(self,data): #define linked list for node
         self.val=data
         self.left=None
         self.right=None
-        self.height=1#1 node height is one always
+        self.height=1#first node height is one always
 def insert(root,super): 
     if not root:
             return node(super)
